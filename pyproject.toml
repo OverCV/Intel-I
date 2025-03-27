@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "intel-one"
+version = "0.1.0"
+description = "Visualización de algoritmos"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "ipython>=8.12.0",
+    "jupyter>=1.0.0",
+    "numpy>=1.24.0",
+    "matplotlib>=3.7.0",
+    "networkx>=3.1",
+]
+
+[tool.setuptools]
