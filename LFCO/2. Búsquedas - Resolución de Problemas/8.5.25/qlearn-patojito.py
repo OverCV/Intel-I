@@ -18,7 +18,6 @@ utilizando el algoritmo de Q-Learning, evitando trampas y buscando recompensas.
 import random
 import matplotlib.pyplot as plt
 import numpy as np
-from matplotlib.colors import ListedColormap
 import matplotlib.patches as mpatches
 
 # =============================================================================
