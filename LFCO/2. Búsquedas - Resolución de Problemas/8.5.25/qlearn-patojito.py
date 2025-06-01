@@ -424,7 +424,7 @@ analizar_resultados()
 
 
 def graficar_progreso():
-    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(15, 6))
+    _, (ax1, ax2) = plt.subplots(1, 2, figsize=(15, 6))
 
     # Gráfica de recompensas
     ax1.plot(recompensas_por_episodio, alpha=0.7, color="blue", linewidth=1)
